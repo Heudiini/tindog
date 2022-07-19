@@ -1,225 +1,168 @@
-
-body{
-    font-family:'Montserrat';
-    text-align: center;
-   
-    }
- h1,h2,h3,h4,h5,h6{
-        font-family: 'Poppins';
-    }
-   
-       
-    p {
-        color: grey;
-    }
-    
-
-
-    /* headings */
-
-.big-heading{
-
- font-family: 'Poppins';
-          font-size:3.5rem;   
-    line-height: 1.5;
-    
-
+body {
+  font-family: "Montserrat";
+  text-align: center;
 }
-.section-heading{
-    font-size: 3rem;
-    line-height: 1.5;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins";
+}
+
+p {
+  color: grey;
+}
+
+/* headings */
+
+.big-heading {
+  font-family: "Poppins";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
 }
 /* containers */
 
-
-.container-fluid{
-        padding:  7% 10%;
-    }
-
+.container-fluid {
+  padding: 7% 10%;
+}
 
 /* sections */
 
-
-.colored-section{
-    background-color: #ff4c68;  
-    color: white;
+.colored-section {
+  background-color: #ff4c68;
+  color: white;
 }
 
-.white-section{
-    background-color: white;
+.white-section {
+  background-color: white;
 }
 
+/* navigation bar */
 
-
-
-
-    /* navigation bar */
-    
-    .navbar{
-       
-        margin-bottom:2.5rem;
-    }
-    
-    .navbar .navbar-brand{
-        font-family: 'Ubuntu';
-        font-size:x-large;
-        font-weight: bold;   
-    
-    
-    
-    }
-    .navbar-nav .nav-item{
-        padding: 0 18px;
-    }
-    .navbar-nav .nav-item .nav-link{
-       font-size: 1.2rem;
-        font-weight: lighter;
-      
-    }
-
-
-
-
-    /* title section */
-
-
-    
-    .title-image{
-        
-        width: 60%;
-        transform: rotate(23deg);
-     
-     margin-top: 20px;
-      position: absolute;
-      right: 30%;
-      
-    
-    
-    }
-    #title {
-       
-        text-align: left;
-    }
-    #title .container-fluid{
-        padding: 3% 15% 7%;}
-    
-    @media (max-width:1200px){
-        #title{
-            text-align: center;
-        }
-        .title-image{
-             position:static;
-             transform: rotate(0)
-            
-        }
-        .title-heading{font-size:40px;}
-      
-        
-    }
-   
-
-
-    /* buttons */
-     .download-button{
-    
-    margin: 5% 3%  5% 0;
-    }
-    
-   
-    
-    /* features */
-
-    #features{
-   
-    padding: 7% 15%;
-    position: relative;
-    
-    
-    }
-.feature-title{
-    font-size: 1.5rem;
+.navbar {
+  margin-bottom: 2.5rem;
 }
 
-    .feature-box{
-       
-        padding: 5% 3%;
-    }
-    .icon{
-        color:#ef8172;
-        margin-bottom: 1rem;
-    }
-    .icon:hover{
-        color:#ff4c68;
-    }
-
-
-
-
-    /* testimonials  */
-
-
-
-    #testimonials{
-    background-color: #ef8172;
-   
-   
-    }
-    
-    .testimonial-img{
-        width: 10%;
-        border-radius: 100%;
-        margin: 20px;
-       }
-       .testimonial-text{
-        font-size: 3rem;
-        line-height: 1.5;
-       }
-    
-    
-    #press{
-   
-    background-color: #ef8172;
-    padding-bottom: 30px;
+.navbar .navbar-brand {
+  font-family: "Ubuntu";
+  font-size: x-large;
+  font-weight: bold;
+}
+.navbar-nav .nav-item {
+  padding: 0 18px;
+}
+.navbar-nav .nav-item .nav-link {
+  font-size: 1.2rem;
+  font-weight: lighter;
 }
 
-    .press-logo{
-        width: 15%;
-        margin: 20px 20px 50px;
-    }
-    
-    
+/* title section */
 
- 
-    
-    
-    /* pricing  */
-    
-    .price-text{
-        font-size: 3rem;
-        line-height: 1.5;
-    }
-    
-    
-    #pricing{
-    
-    padding: 100px;
-   
-    
-    }
-    
-    
-    .pricing-col{
-    
-        padding: 3% 2%;
-    
-    }
+.title-image {
+  width: 60%;
+  transform: rotate(23deg);
 
-    
-  /* footer */
+  margin-top: 20px;
+  position: absolute;
+  right: 30%;
+}
+#title {
+  text-align: left;
+}
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
 
-    .social-icon{
-        margin: 30px 30px;
-      
-        color: grey;
-    }
-    
+@media (max-width: 1200px) {
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+  .title-heading {
+    font-size: 40px;
+  }
+}
+
+/* buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* features */
+
+#features {
+  padding: 7% 15%;
+  position: relative;
+}
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 5% 3%;
+}
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* testimonials  */
+
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 30px;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing  */
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#pricing {
+  padding: 100px;
+}
+
+.pricing-col {
+  padding: 3% 2%;
+}
+
+/* footer */
+
+.social-icon {
+  margin: 30px 30px;
+
+  color: grey;
+}
